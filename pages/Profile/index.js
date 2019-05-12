@@ -124,7 +124,7 @@ class Profile extends Component <PProfile, any> {
           {listContacts}
           <ContactRowStyled href="/profile">
             <Icon type="globe" />
-            <ContactTextStyled>lamhieu.info/profile</ContactTextStyled>
+            <ContactTextStyled>owenmiller.me/profile</ContactTextStyled>
           </ContactRowStyled>
         </ContactContentStyled>
       </ContactStyled>
@@ -219,14 +219,14 @@ class Profile extends Component <PProfile, any> {
   )
 
   renderCompany = () => {
-    const entriesCompany = Object.entries(PROFILE.DETAIL.COMPANY)
+    const entriesCompany = Object.entries(PROFILE.DETAIL.EDUCATION)
     const listCompanys = entriesCompany.map(this.renderCompanyRow)
 
     return (
       <CompanyStyled>
         <CompanyHeadStyled>
           <Icon type="suitcase" />
-          Company
+          Education
         </CompanyHeadStyled>
         <CompanyContentStyled>{listCompanys}</CompanyContentStyled>
       </CompanyStyled>

@@ -55,6 +55,7 @@ export const Name = styled.h1`
 
 export const Slogan = styled.h2`
   margin: 0;
+  //padding-top: 10px;
   padding-left: 5px;
   color: #fff;
   font-weight: 300;

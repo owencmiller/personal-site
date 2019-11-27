@@ -29,9 +29,9 @@ export const Background = styled.main`
 export const Info = styled.div`
   padding: 3.5em 0;
   width: 70vw;
-  text-align: left;
+  text-align: center;
   > h1, h2, h3 {
-    max-width: 80%;
+    max-width: 100%;
   }
 
   @media screen and (max-width: ${RESPONSIVE_SIZES.MOBILE}) {
@@ -55,7 +55,7 @@ export const Name = styled.h1`
 
 export const Slogan = styled.h2`
   margin: 0;
-  //padding-top: 10px;
+  padding-top: 10px;
   padding-left: 5px;
   color: #fff;
   font-weight: 300;
@@ -110,6 +110,8 @@ export const ViewProfile = styled.a`
 
 export const Action = styled.div`
   display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 1em;
   animation: ${slideToTop} 1s ease;
   > a {

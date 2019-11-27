@@ -17,7 +17,6 @@ export const Button = styled.a`
   background: rgba(255, 255, 255, 0.2);
   border: none;
   border-radius: 2em;
-  text-transform: uppercase;
   text-decoration: none;
   font-size: .85em;
   color: #fff;

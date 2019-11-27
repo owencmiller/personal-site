@@ -12463,11 +12463,10 @@ var _SOCIAL_NETWORK_LINKS, _SOCIAL_NETWORK_ICONS, _SOCIAL_NETWORKS;
 var SOCIAL_NETWORK = {
   GITHUB: 'GITHUB',
   LINKEDIN: 'LINKEDIN',
-  FACEBOOK: 'FACEBOOK',
   MEDIUM: 'MEDIUM'
 };
-var SOCIAL_NETWORK_LINKS = (_SOCIAL_NETWORK_LINKS = {}, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_SOCIAL_NETWORK_LINKS, SOCIAL_NETWORK.GITHUB, 'https://github.com/{username}'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_SOCIAL_NETWORK_LINKS, SOCIAL_NETWORK.LINKEDIN, 'https://linkedin.com/in/{username}'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_SOCIAL_NETWORK_LINKS, SOCIAL_NETWORK.FACEBOOK, 'https://facebook.com/{username}'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_SOCIAL_NETWORK_LINKS, SOCIAL_NETWORK.MEDIUM, 'https://medium.com/{username}'), _SOCIAL_NETWORK_LINKS);
-var SOCIAL_NETWORK_ICONS = (_SOCIAL_NETWORK_ICONS = {}, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_SOCIAL_NETWORK_ICONS, SOCIAL_NETWORK.GITHUB, 'github'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_SOCIAL_NETWORK_ICONS, SOCIAL_NETWORK.LINKEDIN, 'linkedin'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_SOCIAL_NETWORK_ICONS, SOCIAL_NETWORK.FACEBOOK, 'facebook'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_SOCIAL_NETWORK_ICONS, SOCIAL_NETWORK.MEDIUM, 'medium'), _SOCIAL_NETWORK_ICONS);
+var SOCIAL_NETWORK_LINKS = (_SOCIAL_NETWORK_LINKS = {}, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_SOCIAL_NETWORK_LINKS, SOCIAL_NETWORK.GITHUB, 'https://github.com/{username}'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_SOCIAL_NETWORK_LINKS, SOCIAL_NETWORK.LINKEDIN, 'https://linkedin.com/in/{username}'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_SOCIAL_NETWORK_LINKS, SOCIAL_NETWORK.MEDIUM, 'https://medium.com/{username}'), _SOCIAL_NETWORK_LINKS);
+var SOCIAL_NETWORK_ICONS = (_SOCIAL_NETWORK_ICONS = {}, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_SOCIAL_NETWORK_ICONS, SOCIAL_NETWORK.GITHUB, 'github'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_SOCIAL_NETWORK_ICONS, SOCIAL_NETWORK.LINKEDIN, 'linkedin'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_SOCIAL_NETWORK_ICONS, SOCIAL_NETWORK.MEDIUM, 'medium'), _SOCIAL_NETWORK_ICONS);
 var RESPONSIVE_SIZES = {
   MOBILE: '30em',
   TABLE: '60em'
@@ -12481,11 +12480,10 @@ var PROFILE = {
   // eslint-disable-line max-len
   NAME: 'Owen Miller',
   JOB: 'Full Stack Developer',
-  SLOGAN: 'I\'ll learn it',
   DESCRIPTION: 'Your friendly neighborhood math student and fullstack developer.',
   ABOUT: 'I love using math to solve problems. I have expereince with **Java**, **Golang**, and **Python**; as well as many interests in **AI**, **Data Engineering**, and **DevOps**.',
   // eslint-disable-line max-len
-  SOCIAL_NETWORKS: (_SOCIAL_NETWORKS = {}, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_SOCIAL_NETWORKS, SOCIAL_NETWORK.GITHUB, 'owencmiller'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_SOCIAL_NETWORKS, SOCIAL_NETWORK.LINKEDIN, 'owen-c-miller'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_SOCIAL_NETWORKS, SOCIAL_NETWORK.FACEBOOK, 'owen.miller.9862'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_SOCIAL_NETWORKS, SOCIAL_NETWORK.MEDIUM, '@owencmiller'), _SOCIAL_NETWORKS),
+  SOCIAL_NETWORKS: (_SOCIAL_NETWORKS = {}, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_SOCIAL_NETWORKS, SOCIAL_NETWORK.GITHUB, 'owencmiller'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_SOCIAL_NETWORKS, SOCIAL_NETWORK.LINKEDIN, 'owen-c-miller'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_SOCIAL_NETWORKS, SOCIAL_NETWORK.MEDIUM, '@owencmiller'), _SOCIAL_NETWORKS),
   ACTIONS: [// {
   //   icon: 'info-circle',
   //   title: 'View projects',
@@ -12498,40 +12496,14 @@ var PROFILE = {
   {
     icon: 'phone',
     title: '2 x 2089 x 639671',
-    href: 'n/a',
+    href: '',
     text: '2 x 2089 x 639671'
   }, {
     icon: 'envelope',
-    title: 'mail[AT]owenmiller.me',
-    href: 'n/a',
-    text: 'mail [AT] owenmiller.me'
-  }],
-  DETAIL: {
-    INTRODUCTION: {
-      Name: 'Owen Miller',
-      Job: 'Full Stack Developer',
-      Residence: 'Philadelphia, Pennsylvania',
-      Education: 'Rochester Intsitute of Technology',
-      Quote: 'I\'ll learn it'
-    },
-    EXPERIENCE: {
-      'Intuit, May 2019 - August 2019': 'Worked on the internals of TurboTax and other related systems.',
-      // eslint-disable-line max-len
-      'Intuit, May 2018 - December 2018': 'Helped migrate an internal CI/CD platfrom from JBoss to SpringBoot. I created an internal metrics system for the CI/CD platform using AWS Elasticsearch and a React frontend.' // eslint-disable-line max-len
-
-    },
-    SKILL: {
-      'Languages': 'I have experience with **Java**, **Golang**, and **Python**. I have used Java while interning at Intuit working on internal tools; Golang in personal projects just as a **gonet**, a neural network framework written in pure go; and Python as a scripting language and the primary language for tensorflow.',
-      // eslint-disable-line max-len
-      'Tools': 'I have used **Tensorflow**, **AWS**, **Springboot**, and **Spark**. I am currently learning higher level frontend related tools including **React** and **GraphQL**.',
-      // eslint-disable-line max-len
-      Other: 'I am constanstly learning more about artificial intelligence and its capabilities. Follow my blog on medium for more.' // eslint-disable-line max-len
-
-    },
-    EDUCATION: {
-      'Rochester Intsitute of Technology': 'Major in Computational Mathematics and minor in Philosophy'
-    }
-  }
+    title: 'mail[AT]owenmiller[DOT]me',
+    href: '/',
+    text: 'mail [AT] owenmiller [DOT] me'
+  }]
 };
 var SOURCES = {
   STYLES: ['https://necolas.github.io/normalize.css/latest/normalize.css', 'https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css', 'https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:100,300,400,700']
@@ -20749,7 +20721,7 @@ var Background = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].main.
 var Info = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
   displayName: "styles__Info",
   componentId: "zje7cc-1"
-})(["padding:3.5em 0;width:70vw;text-align:left;> h1,h2,h3{max-width:80%;}@media screen and (max-width:", "){width:85vw;}"], _lib_enums__WEBPACK_IMPORTED_MODULE_1__["RESPONSIVE_SIZES"].MOBILE);
+})(["padding:3.5em 0;width:70vw;text-align:center;> h1,h2,h3{max-width:100%;}@media screen and (max-width:", "){width:85vw;}"], _lib_enums__WEBPACK_IMPORTED_MODULE_1__["RESPONSIVE_SIZES"].MOBILE);
 var Name = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].h1.withConfig({
   displayName: "styles__Name",
   componentId: "zje7cc-2"
@@ -20757,7 +20729,7 @@ var Name = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].h1.withConf
 var Slogan = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].h2.withConfig({
   displayName: "styles__Slogan",
   componentId: "zje7cc-3"
-})(["margin:0;padding-left:5px;color:#fff;font-weight:300;font-size:1em;text-transform:uppercase;font-family:", ";animation:", " 1s ease;@media screen and (max-width:", "){margin-top:1em;font-size:.9em;}"], _styles_fonts__WEBPACK_IMPORTED_MODULE_3__["titleFont"], _styles_animation__WEBPACK_IMPORTED_MODULE_2__["slideToLeft"], _lib_enums__WEBPACK_IMPORTED_MODULE_1__["RESPONSIVE_SIZES"].MOBILE);
+})(["margin:0;padding-top:10px;padding-left:5px;color:#fff;font-weight:300;font-size:1em;text-transform:uppercase;font-family:", ";animation:", " 1s ease;@media screen and (max-width:", "){margin-top:1em;font-size:.9em;}"], _styles_fonts__WEBPACK_IMPORTED_MODULE_3__["titleFont"], _styles_animation__WEBPACK_IMPORTED_MODULE_2__["slideToLeft"], _lib_enums__WEBPACK_IMPORTED_MODULE_1__["RESPONSIVE_SIZES"].MOBILE);
 var Description = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].h3.withConfig({
   displayName: "styles__Description",
   componentId: "zje7cc-4"
@@ -20773,7 +20745,7 @@ var ViewProfile = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].a.wi
 var Action = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
   displayName: "styles__Action",
   componentId: "zje7cc-7"
-})(["display:flex;margin-top:1em;animation:", " 1s ease;> a{margin:0 .5em;&:first-child{margin-left:0;}&:last-child{margin-right:0;}}@media screen and (max-width:", "){> a{margin:0 .25em;}}"], _styles_animation__WEBPACK_IMPORTED_MODULE_2__["slideToTop"], _lib_enums__WEBPACK_IMPORTED_MODULE_1__["RESPONSIVE_SIZES"].TABLE);
+})(["display:flex;align-items:center;justify-content:center;margin-top:1em;animation:", " 1s ease;> a{margin:0 .5em;&:first-child{margin-left:0;}&:last-child{margin-right:0;}}@media screen and (max-width:", "){> a{margin:0 .25em;}}"], _styles_animation__WEBPACK_IMPORTED_MODULE_2__["slideToTop"], _lib_enums__WEBPACK_IMPORTED_MODULE_1__["RESPONSIVE_SIZES"].TABLE);
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
